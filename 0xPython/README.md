@@ -1,1 +1,1 @@
-My dir Readme 
+This is the python directory in my repo and here i study and solve some problems with python
