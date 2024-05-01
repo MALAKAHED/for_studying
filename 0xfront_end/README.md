@@ -4,4 +4,4 @@ here i learn HTML , CSS and JS
 
 I wanna learn React but not yet
 
-but React in my plan to be a full stake SWE 
+but React in my plan to be a full stack SWE 
