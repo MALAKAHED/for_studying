@@ -64,7 +64,8 @@ body, html {
 }
 
 .social-icons img {
-    width: 30px;
+    width: 30px; /* حجم الأيقونات */
     height: 30px;
     margin-right: 10px;
+    vertical-align: middle; /* محاذاة الأيقونات بشكل أفضل مع النص */
 }
