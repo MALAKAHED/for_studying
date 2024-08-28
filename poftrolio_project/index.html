@@ -1,30 +1,71 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The 6 Meals</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="container">
-        <div class="banner">
-            <div class="menu-item"><a href="breakfast.html">BREAKFAST MEALS</a></div>
-            <div class="menu-item"><a href="lunch.html">LUNCH MEALS</a></div>
-            <div class="menu-item"><a href="dinner.html">DINNER MEALS</a></div>
-        </div>
-        <div class="main-text">
-            <h1>THE 6 MEALS</h1>
-            <p>You Focus on the GYM, We Handle the six meals</p>
-        </div>
-        <div class="contact">
-            <p>Contact us</p>
-            <div class="social-icons">
-                <a href="https://www.linkedin.com"><img src="linkedin-icon.png" alt="LinkedIn"></a>
-                <a href="https://www.facebook.com"><img src="facebook-icon.png" alt="Facebook"></a>
-                <a href="https://www.instagram.com"><img src="instagram-icon.png" alt="Instagram"></a>
-            </div>
-        </div>
-    </div>
-</body>
-</html>
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-image: url('C:/Users/HP/Downloads/WhatsApp Image 2024-08-29 at 01.09.10_08a74499.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+
+.banner {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 50px; /* تحريك الشريط للأسفل */
+}
+
+.banner .menu-item {
+    flex: 1;
+}
+
+.banner .menu-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px; /* تكبير النص في الشريط */
+    font-weight: bold;
+}
+
+.main-text {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.main-text h1 {
+    font-size: 70px; /* تكبير النص */
+    font-style: italic;
+    margin: 0;
+    font-weight: bold; /* جعل النص أعرض */
+}
+
+.main-text p {
+    font-size: 24px; /* تكبير حجم الخط للكومنت */
+    font-weight: bold; /* جعل النص أعرض */
+    margin-top: 20px;
+}
+
+.contact {
+    padding: 20px;
+}
+
+.contact p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.social-icons img {
+    width: 30px; /* حجم الأيقونات */
+    height: 30px;
+    margin-right: 10px;
+    vertical-align: middle; /* محاذاة الأيقونات بشكل أفضل مع النص */
+}
