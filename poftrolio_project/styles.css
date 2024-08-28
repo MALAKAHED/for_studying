@@ -1,0 +1,65 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-image: url('green-apple.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+
+.banner {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.banner .menu-item {
+    flex: 1;
+}
+
+.banner .menu-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main-text {
+    text-align: center;
+}
+
+.main-text h1 {
+    font-size: 50px;
+    font-style: italic;
+    margin: 0;
+}
+
+.main-text p {
+    font-size: 18px;
+}
+
+.contact {
+    padding: 20px;
+}
+
+.contact p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
