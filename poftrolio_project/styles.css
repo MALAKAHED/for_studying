@@ -17,11 +17,12 @@ body, html {
 }
 
 .banner {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px 0;
     display: flex;
     justify-content: space-around;
     text-align: center;
+    margin-top: 50px; /* تحريك الشريط للأسفل */
 }
 
 .banner .menu-item {
@@ -31,22 +32,26 @@ body, html {
 .banner .menu-item a {
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 24px; /* تكبير النص في الشريط */
     font-weight: bold;
 }
 
 .main-text {
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .main-text h1 {
-    font-size: 50px;
+    font-size: 70px; /* تكبير النص */
     font-style: italic;
     margin: 0;
+    font-weight: bold; /* جعل النص أعرض */
 }
 
 .main-text p {
-    font-size: 18px;
+    font-size: 24px; /* تكبير حجم الخط للكومنت */
+    font-weight: bold; /* جعل النص أعرض */
+    margin-top: 20px;
 }
 
 .contact {
