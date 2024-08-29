@@ -1,0 +1,108 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.top-bar {
+    background-color: rgba(0, 0, 0, 0.7); /* شريط شفاف غامق */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.left-icons {
+    flex: 1;
+}
+
+.home-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+.menu {
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.menu a.active {
+    border-bottom: 2px solid green; /* خط أخضر تحت الصفحة النشطة */
+}
+
+.right-icons {
+    flex: 1;
+    text-align: right;
+}
+
+.right-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.section {
+    width: 30%;
+    text-align: center;
+    position: relative;
+}
+
+.leaf-image {
+    width: 100%;
+    height: auto;
+}
+
+.quote {
+    margin-top: 20px;
+    font-size: 16px;
+    font-style: italic;
+    color: black;
+}
+
+.meal-cards {
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.meal-card {
+    background-color: #f8f8f8;
+    width: 45%;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.meal-card a {
+    text-decoration: none;
+    color: black;
+}
+
+.meal-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.meal-name {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
