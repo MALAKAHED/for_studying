@@ -6,8 +6,8 @@ body, html {
 }
 
 .top-bar {
-    background-color: rgba(0, 0, 0, 0.7); /* شريط شفاف غامق */
-    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 20px 40px; /* تكبير الشريط العلوي */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,7 +33,7 @@ body, html {
 .menu a {
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px; /* تكبير حجم النص */
     font-weight: bold;
 }
 
