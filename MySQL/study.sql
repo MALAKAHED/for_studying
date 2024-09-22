@@ -1,2 +1,0 @@
-CREAT DATABASE hema;
-
