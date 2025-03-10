@@ -74,4 +74,5 @@ This is the python directory in my repo and here i study and solve some problems
         2 know how to make a relation with sql alchmey
         3 add new attributes
  
+
  
